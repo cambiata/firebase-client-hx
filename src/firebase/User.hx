@@ -1,4 +1,4 @@
-package firebase;
+package firebase; // 
 
 @:native("firebase.User") extern class User extends UserInfo {
 	public var emailVerified:Bool;
