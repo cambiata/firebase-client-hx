@@ -7,7 +7,8 @@ package firebase; //
 	public var refreshToken:String;
 
 	public function delete():Dynamic;
-	public function getToken(?forceRefresh:Bool):Dynamic;
+	// public function getToken(?forceRefresh:Bool):Dynamic;
+	public function getIdToken(?forceRefresh:Bool):Dynamic;
 	public function link(credential:firebase.auth.AuthCredential):Dynamic;
 	public function linkWithPopup(provider:firebase.auth.AuthProvider):Dynamic;
 	public function linkWithRedirect(provider:firebase.auth.AuthProvider):Dynamic;
